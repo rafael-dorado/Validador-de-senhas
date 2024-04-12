@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Conecte-se</h1>
+        <form action="">
+            <label for="">Senha:</label>
+            <input type ="text" minlength="6" id="senha" placeholder="Digite sua senha"/><br><br>
+            <label for="">Confirme sua senha:</label>
+            <input type ="text" minlength="6" id="csenha" placeholder="Confirme sua senha"/><br><br>
+            <br><br>
+            <input type ="button" value="Conectar" onclick="validarsenha()" class="btn">
+        </form>
+        <div id="escrever"></div>
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body{
+  background-image: linear-gradient(to left,#C6B8D9,#9890d0);
+}
+
+.container{
+  margin: 30px auto;
+  width: 200px;
+  padding: 40px;
+  border: 1px solid #332d58;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Pixelify Sans';
+}
+
+.titulo {
+  font-size: 35px;
+  color: #000000;
+  text-align: center;
+}
+
+label {
+  color: #031730;
+  font-size: 30px;
+}
+
+input {
+  width: 150px;
+  height: 20px;
+  font-family: 'Pixelify Sans';
+  font-size: 15px;
+  background-color: #FACFCE;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #558ED9;
+  color: #040014;
+  margin: 25px;
+}
+
+.btn:hover {
+  background-color: #4E458C;
+  color: #ffffff;
+  transform: scale(1);
+}
+
+
+#escrever{
+  border: 1px solid #000000;
+  font-size: 17px;
+  color: #c80909;
+}
+
+#escrever h1{
+  font-size: 20px;
+}
+
+#escrever h2 {
+  text-align: center;
+}
+
+#escrever ul {
+  list-style: none;
+  text-align: center;
+}
+
+#escrever p {
+  font-size: 20px;
+}
